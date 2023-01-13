@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="cash_register.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>G Sunil | Cash Register</title>
+</head>
+<body>
+    <nav class="navigation"> Cash Register</nav>
+    <main>
+      <p>Get to know the exact change to return</p>
+      <label for="bill-amount">Bill Amount</label>
+      <input id="bill-amount">
+      <label for="cash-given">Cash Given</label>
+      <input id="cash-given">
+      <button id="btn-calculate">Calculate</button>
+      <p id="para">Return change</p>
+        <table>
+            <tbody><tr>
+                <th>No Of Notes</th>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+            </tr>
+            <tr>
+              <th>Note</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+          </tr>
+        </tbody></table>
+      <p id="p-words"></p>
+    </main>
+    <footer>
+      <div style="font-size: larger;"> Made with ❤️ by <a target="_blank" href="https://gsunil.netlify.app/" style="color: bisque;">G Sunil</a></div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

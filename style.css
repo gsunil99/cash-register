@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+:root{
+    --primary-color:#2563eb;
+    --slate-color:#fffbeb;
+    --width:600px;
+}
+.navigation{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--slate-color);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width);
+    text-align: center;
+}
+label{
+    display: block;
+    margin-top: 2rem;
+    font-size: large;
+}
+input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    text-align: center;
+}
+p{
+    font-size: larger;
+    font-weight: lighter;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    color: var(--slate-color);
+    border-radius: 0.5rem;
+    font-size: large;
+    border-color: var(--primary-color);
+}
+table {
+    margin: 2rem 0rem;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+div{
+    overflow: hidden;
+    color: var(--slate-color);
+}
