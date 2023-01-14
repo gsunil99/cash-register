@@ -17,6 +17,8 @@ body{
     text-align: center;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    position: fixed;
+    width: 98%;
 }
 main{
     margin: auto;
@@ -65,7 +67,7 @@ footer {
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 98%;
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
