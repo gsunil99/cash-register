@@ -78,3 +78,6 @@ div{
     overflow: hidden;
     color: var(--slate-color);
 }
+.para-class{
+    margin-top: 4rem;
+}
