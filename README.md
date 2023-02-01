@@ -1,6 +1,6 @@
 # cash-register [![GitHub stars](https://img.shields.io/github/stars/gsunil99/cash-register?style=social)](https://github.com/login?return_to=%2Fgsunil99%cash-register) ![GitHub forks](https://img.shields.io/github/forks/gsunil99/cash-register?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/gsunil99/cash-register) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/gsunil99/cash-register)
 
-## Project is live at [**gsunil-cash-register**](https://gsunil-pirate-talk.netlify.app/)
+## Project is live at [**gsunil-cash-register**](https://gsunil-cash-register.netlify.app/)
 ## A cash register manager which helps the user by telling how to return the change with minimum number of notes.
 ## How to run the project!
 ### - Clone the project
